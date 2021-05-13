@@ -1,0 +1,12 @@
+package com.dilecompany.test.graphql.repositories;
+
+import com.dilecompany.test.graphql.entities.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+/**
+ * @author SINCLAIR_JAZA
+ * @Date 13/05/2021 - 07:55
+ * @Project GraphQL Test
+ */
+public interface ProductRepository extends JpaRepository<Product, Long> {
+}
